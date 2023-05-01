@@ -1,0 +1,15 @@
+<%# fichier HTML dans lequel tu peux y rajouter du Ruby %>
+<html>
+<h1>Liste des potins </h1>
+  <body>
+<% gossips.each do |gossip| %>
+  <p>
+    <%= gossip.author %><br/>
+    <%= gossip.content %>
+  </p>
+<% end %>
+ </body>
+</html>
+
+<%# sans # équivalent du puts %>
+
